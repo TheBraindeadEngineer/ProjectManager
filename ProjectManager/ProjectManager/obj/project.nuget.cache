@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "dgSpecHash": "8wIXp+mB1X/tx11i/wjEeTjX6NCxUcDGdwhzfUMxaEeypnBWDi2l3CjaU8aMQGbpDQfqea9wk8yqNga1kW+pcA==",
+  "success": true,
+  "projectFilePath": "E:\\projects\\ProjectManager\\ProjectManager\\ProjectManager\\ProjectManager.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Elvin\\.nuget\\packages\\microsoft.projectreunion\\0.8.6\\microsoft.projectreunion.0.8.6.nupkg.sha512",
+    "C:\\Users\\Elvin\\.nuget\\packages\\microsoft.projectreunion.dwrite\\0.8.6\\microsoft.projectreunion.dwrite.0.8.6.nupkg.sha512",
+    "C:\\Users\\Elvin\\.nuget\\packages\\microsoft.projectreunion.foundation\\0.8.6\\microsoft.projectreunion.foundation.0.8.6.nupkg.sha512",
+    "C:\\Users\\Elvin\\.nuget\\packages\\microsoft.projectreunion.interactiveexperiences\\0.8.6\\microsoft.projectreunion.interactiveexperiences.0.8.6.nupkg.sha512",
+    "C:\\Users\\Elvin\\.nuget\\packages\\microsoft.projectreunion.winui\\0.8.6\\microsoft.projectreunion.winui.0.8.6.nupkg.sha512",
+    "C:\\Users\\Elvin\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\5.0.17\\microsoft.netcore.app.runtime.win-x64.5.0.17.nupkg.sha512",
+    "C:\\Users\\Elvin\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\5.0.17\\microsoft.aspnetcore.app.runtime.win-x64.5.0.17.nupkg.sha512",
+    "C:\\Users\\Elvin\\.nuget\\packages\\microsoft.netcore.app.runtime.win-arm64\\5.0.17\\microsoft.netcore.app.runtime.win-arm64.5.0.17.nupkg.sha512",
+    "C:\\Users\\Elvin\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\5.0.17\\microsoft.windowsdesktop.app.runtime.win-x64.5.0.17.nupkg.sha512",
+    "C:\\Users\\Elvin\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.25\\microsoft.windows.sdk.net.ref.10.0.19041.25.nupkg.sha512",
+    "C:\\Users\\Elvin\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-arm64\\5.0.17\\microsoft.aspnetcore.app.runtime.win-arm64.5.0.17.nupkg.sha512",
+    "C:\\Users\\Elvin\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x86\\5.0.17\\microsoft.netcore.app.runtime.win-x86.5.0.17.nupkg.sha512",
+    "C:\\Users\\Elvin\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-arm64\\5.0.17\\microsoft.windowsdesktop.app.runtime.win-arm64.5.0.17.nupkg.sha512",
+    "C:\\Users\\Elvin\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x86\\5.0.17\\microsoft.aspnetcore.app.runtime.win-x86.5.0.17.nupkg.sha512",
+    "C:\\Users\\Elvin\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x86\\5.0.17\\microsoft.windowsdesktop.app.runtime.win-x86.5.0.17.nupkg.sha512"
+  ],
+  "logs": []
+}

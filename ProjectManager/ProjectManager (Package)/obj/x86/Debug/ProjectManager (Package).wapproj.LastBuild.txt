@@ -1,0 +1,30 @@
+E:\projects\ProjectManager\ProjectManager\ProjectManager\bin\x86\Debug\net5.0-windows10.0.19041.0\App.xbf
+E:\projects\ProjectManager\ProjectManager\ProjectManager\bin\x86\Debug\net5.0-windows10.0.19041.0\MainWindow.xbf
+E:\projects\ProjectManager\ProjectManager\ProjectManager\bin\x86\Debug\net5.0-windows10.0.19041.0\Pages\AddProject.xbf
+E:\projects\ProjectManager\ProjectManager\ProjectManager\bin\x86\Debug\net5.0-windows10.0.19041.0\Pages\MainPage.xbf
+E:\projects\ProjectManager\ProjectManager\ProjectManager\bin\x86\Debug\net5.0-windows10.0.19041.0\Pages\ShowProject.xbf
+C:\Program Files (x86)\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.22000.0\Redist\Debug\x86\ucrtbased.dll
+E:\projects\ProjectManager\ProjectManager\ProjectManager (Package)\Images\SplashScreen.scale-200.png
+E:\projects\ProjectManager\ProjectManager\ProjectManager (Package)\Images\LockScreenLogo.scale-200.png
+E:\projects\ProjectManager\ProjectManager\ProjectManager (Package)\Images\Square150x150Logo.scale-200.png
+E:\projects\ProjectManager\ProjectManager\ProjectManager (Package)\Images\Square44x44Logo.scale-200.png
+E:\projects\ProjectManager\ProjectManager\ProjectManager (Package)\Images\Square44x44Logo.targetsize-24_altform-unplated.png
+E:\projects\ProjectManager\ProjectManager\ProjectManager (Package)\Images\StoreLogo.png
+E:\projects\ProjectManager\ProjectManager\ProjectManager (Package)\Images\Wide310x150Logo.scale-200.png
+E:\projects\ProjectManager\ProjectManager\ProjectManager (Package)\bin\x86\Debug\resources.pri
+C:\Users\Elvin\.nuget\packages\microsoft.projectreunion.foundation\0.8.6\lib\net5.0-windows\Microsoft.ApplicationModel.Resources.Projection.dll
+C:\Users\Elvin\.nuget\packages\microsoft.projectreunion.winui\0.8.6\lib\net5.0-windows10.0.18362.0\Microsoft.WinUI.dll
+C:\Users\Elvin\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.25\lib\Microsoft.Windows.SDK.NET.dll
+C:\Users\Elvin\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.25\lib\WinRT.Runtime.dll
+E:\projects\ProjectManager\ProjectManager\ProjectManager\bin\x86\Debug\net5.0-windows10.0.19041.0\ProjectManager.deps.json
+E:\projects\ProjectManager\ProjectManager\ProjectManager\bin\x86\Debug\net5.0-windows10.0.19041.0\ProjectManager.runtimeconfig.dev.json
+E:\projects\ProjectManager\ProjectManager\ProjectManager\obj\x86\Debug\net5.0-windows10.0.19041.0\App.xbf
+E:\projects\ProjectManager\ProjectManager\ProjectManager\obj\x86\Debug\net5.0-windows10.0.19041.0\MainWindow.xbf
+E:\projects\ProjectManager\ProjectManager\ProjectManager\obj\x86\Debug\net5.0-windows10.0.19041.0\Pages\AddProject.xbf
+E:\projects\ProjectManager\ProjectManager\ProjectManager\obj\x86\Debug\net5.0-windows10.0.19041.0\Pages\MainPage.xbf
+E:\projects\ProjectManager\ProjectManager\ProjectManager\obj\x86\Debug\net5.0-windows10.0.19041.0\Pages\ShowProject.xbf
+E:\projects\ProjectManager\ProjectManager\ProjectManager\obj\x86\Debug\net5.0-windows10.0.19041.0\apphost.exe
+C:\Users\Elvin\.nuget\packages\microsoft.projectreunion.foundation\0.8.6\lib\net5.0-windows\Microsoft.ApplicationModel.Resources.Projection.pdb
+E:\projects\ProjectManager\ProjectManager\ProjectManager\bin\x86\Debug\net5.0-windows10.0.19041.0\ProjectManager.runtimeconfig.json
+E:\projects\ProjectManager\ProjectManager\ProjectManager\bin\x86\Debug\net5.0-windows10.0.19041.0\ProjectManager.dll
+E:\projects\ProjectManager\ProjectManager\ProjectManager\bin\x86\Debug\net5.0-windows10.0.19041.0\ProjectManager.pdb

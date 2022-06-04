@@ -1,0 +1,44 @@
+E:\projects\ProjectManager\ProjectManager\ProjectManager (Package)\bin\x86\Debug\App.xbf
+E:\projects\ProjectManager\ProjectManager\ProjectManager (Package)\bin\x86\Debug\MainWindow.xbf
+E:\projects\ProjectManager\ProjectManager\ProjectManager (Package)\bin\x86\Debug\Pages\MainPage.xbf
+E:\projects\ProjectManager\ProjectManager\ProjectManager (Package)\bin\x86\Debug\ProjectManager\Microsoft.ApplicationModel.Resources.Projection.dll
+E:\projects\ProjectManager\ProjectManager\ProjectManager (Package)\bin\x86\Debug\ProjectManager\Microsoft.WinUI.dll
+E:\projects\ProjectManager\ProjectManager\ProjectManager (Package)\bin\x86\Debug\ProjectManager\Microsoft.Windows.SDK.NET.dll
+E:\projects\ProjectManager\ProjectManager\ProjectManager (Package)\bin\x86\Debug\ProjectManager\WinRT.Runtime.dll
+E:\projects\ProjectManager\ProjectManager\ProjectManager (Package)\bin\x86\Debug\ProjectManager\ProjectManager.deps.json
+E:\projects\ProjectManager\ProjectManager\ProjectManager (Package)\bin\x86\Debug\ProjectManager\ProjectManager.runtimeconfig.dev.json
+E:\projects\ProjectManager\ProjectManager\ProjectManager (Package)\bin\x86\Debug\ProjectManager\App.xbf
+E:\projects\ProjectManager\ProjectManager\ProjectManager (Package)\bin\x86\Debug\ProjectManager\MainWindow.xbf
+E:\projects\ProjectManager\ProjectManager\ProjectManager (Package)\bin\x86\Debug\ProjectManager\Pages\MainPage.xbf
+E:\projects\ProjectManager\ProjectManager\ProjectManager (Package)\bin\x86\Debug\ProjectManager\ProjectManager.exe
+E:\projects\ProjectManager\ProjectManager\ProjectManager (Package)\bin\x86\Debug\ProjectManager\Microsoft.ApplicationModel.Resources.Projection.pdb
+E:\projects\ProjectManager\ProjectManager\ProjectManager (Package)\bin\x86\Debug\ProjectManager\ProjectManager.runtimeconfig.json
+E:\projects\ProjectManager\ProjectManager\ProjectManager (Package)\bin\x86\Debug\ProjectManager\ProjectManager.dll
+E:\projects\ProjectManager\ProjectManager\ProjectManager (Package)\bin\x86\Debug\ProjectManager\ProjectManager.pdb
+E:\projects\ProjectManager\ProjectManager\ProjectManager (Package)\bin\x86\Debug\resources.pri
+E:\projects\ProjectManager\ProjectManager\ProjectManager (Package)\bin\x86\Debug\AppxManifest.xml
+E:\projects\ProjectManager\ProjectManager\ProjectManager (Package)\bin\x86\Debug\ProjectManager (Package).build.appxrecipe
+E:\projects\ProjectManager\ProjectManager\ProjectManager (Package)\obj\x86\Debug\ProjectManager (Package).wapproj.AssemblyReference.cache
+E:\projects\ProjectManager\ProjectManager\ProjectManager (Package)\obj\x86\Debug\ProjectManager (Package).wapproj.CoreCompileInputs.cache
+E:\projects\ProjectManager\ProjectManager\ProjectManager (Package)\obj\x86\Debug\ProjectManager.pri.xml
+E:\projects\ProjectManager\ProjectManager\ProjectManager (Package)\obj\x86\Debug\priconfig.xml
+E:\projects\ProjectManager\ProjectManager\ProjectManager (Package)\obj\x86\Debug\priconfig.xml.intermediate
+E:\projects\ProjectManager\ProjectManager\ProjectManager (Package)\obj\x86\Debug\unfiltered.layout.resfiles
+E:\projects\ProjectManager\ProjectManager\ProjectManager (Package)\obj\x86\Debug\unfiltered.layout.resfiles.intermediate
+E:\projects\ProjectManager\ProjectManager\ProjectManager (Package)\obj\x86\Debug\filtered.layout.resfiles
+E:\projects\ProjectManager\ProjectManager\ProjectManager (Package)\obj\x86\Debug\filtered.layout.resfiles.intermediate
+E:\projects\ProjectManager\ProjectManager\ProjectManager (Package)\obj\x86\Debug\excluded.layout.resfiles
+E:\projects\ProjectManager\ProjectManager\ProjectManager (Package)\obj\x86\Debug\excluded.layout.resfiles.intermediate
+E:\projects\ProjectManager\ProjectManager\ProjectManager (Package)\obj\x86\Debug\resources.resfiles
+E:\projects\ProjectManager\ProjectManager\ProjectManager (Package)\obj\x86\Debug\resources.resfiles.intermediate
+E:\projects\ProjectManager\ProjectManager\ProjectManager (Package)\obj\x86\Debug\pri.resfiles
+E:\projects\ProjectManager\ProjectManager\ProjectManager (Package)\obj\x86\Debug\pri.resfiles.intermediate
+E:\projects\ProjectManager\ProjectManager\ProjectManager (Package)\obj\x86\Debug\qualifiers.txt
+E:\projects\ProjectManager\ProjectManager\ProjectManager (Package)\obj\x86\Debug\qualifiers.txt.intermediate
+E:\projects\ProjectManager\ProjectManager\ProjectManager (Package)\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
+E:\projects\ProjectManager\ProjectManager\ProjectManager (Package)\obj\x86\Debug\ProjectArchitectures.txt
+E:\projects\ProjectManager\ProjectManager\ProjectManager (Package)\obj\x86\Debug\ProjectManager (Package).wapproj.LastBuild.txt
+E:\projects\ProjectManager\ProjectManager\ProjectManager (Package)\bin\x86\Debug\Pages\AddProject.xbf
+E:\projects\ProjectManager\ProjectManager\ProjectManager (Package)\bin\x86\Debug\Pages\ShowProject.xbf
+E:\projects\ProjectManager\ProjectManager\ProjectManager (Package)\bin\x86\Debug\ProjectManager\Pages\AddProject.xbf
+E:\projects\ProjectManager\ProjectManager\ProjectManager (Package)\bin\x86\Debug\ProjectManager\Pages\ShowProject.xbf
