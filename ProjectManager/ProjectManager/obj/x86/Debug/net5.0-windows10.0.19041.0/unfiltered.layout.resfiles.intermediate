@@ -2,4 +2,5 @@ App.xbf
 MainWindow.xbf
 Pages\AddProject.xbf
 Pages\MainPage.xbf
+Pages\ShowKanban.xbf
 Pages\ShowProject.xbf

@@ -43,7 +43,8 @@ namespace ProjectManager.Pages
                 Name = NameTextBox.Text.Trim(),
                 Description = DescriptionTextBox.Text.Trim(),
                 Created = CreatedOnPicker.SelectedDate.Value.Date,
-                LastUpdated = CreatedOnPicker.SelectedDate.Value.Date
+                LastUpdated = CreatedOnPicker.SelectedDate.Value.Date,
+                Kanban = new Kanban()
             };
 
             Project.SaveProject(newProject);

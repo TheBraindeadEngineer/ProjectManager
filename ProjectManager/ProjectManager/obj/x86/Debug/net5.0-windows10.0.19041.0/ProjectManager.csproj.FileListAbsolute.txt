@@ -62,3 +62,8 @@ E:\projects\ProjectManager\ProjectManager\ProjectManager\obj\x86\Debug\net5.0-wi
 E:\projects\ProjectManager\ProjectManager\ProjectManager\obj\x86\Debug\net5.0-windows10.0.19041.0\Pages\ShowProject.xaml
 E:\projects\ProjectManager\ProjectManager\ProjectManager\obj\x86\Debug\net5.0-windows10.0.19041.0\Pages\AddProject.xbf
 E:\projects\ProjectManager\ProjectManager\ProjectManager\obj\x86\Debug\net5.0-windows10.0.19041.0\Pages\ShowProject.xbf
+E:\projects\ProjectManager\ProjectManager\ProjectManager\bin\x86\Debug\net5.0-windows10.0.19041.0\Pages\ShowKanban.xbf
+E:\projects\ProjectManager\ProjectManager\ProjectManager\obj\x86\Debug\net5.0-windows10.0.19041.0\Pages\ShowKanban.g.i.cs
+E:\projects\ProjectManager\ProjectManager\ProjectManager\obj\x86\Debug\net5.0-windows10.0.19041.0\Pages\ShowKanban.g.cs
+E:\projects\ProjectManager\ProjectManager\ProjectManager\obj\x86\Debug\net5.0-windows10.0.19041.0\Pages\ShowKanban.xaml
+E:\projects\ProjectManager\ProjectManager\ProjectManager\obj\x86\Debug\net5.0-windows10.0.19041.0\Pages\ShowKanban.xbf

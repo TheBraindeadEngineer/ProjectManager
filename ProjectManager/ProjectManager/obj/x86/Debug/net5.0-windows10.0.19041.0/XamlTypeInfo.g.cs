@@ -224,7 +224,7 @@ namespace ProjectManager.ProjectManager_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[11];
+            _typeNameTable = new string[12];
             _typeNameTable[0] = "Microsoft.UI.Xaml.Controls.XamlControlsResources";
             _typeNameTable[1] = "Microsoft.UI.Xaml.ResourceDictionary";
             _typeNameTable[2] = "Object";
@@ -235,9 +235,10 @@ namespace ProjectManager.ProjectManager_XamlTypeInfo
             _typeNameTable[7] = "Microsoft.UI.Xaml.Controls.Page";
             _typeNameTable[8] = "Microsoft.UI.Xaml.Controls.UserControl";
             _typeNameTable[9] = "ProjectManager.Pages.MainPage";
-            _typeNameTable[10] = "ProjectManager.Pages.ShowProject";
+            _typeNameTable[10] = "ProjectManager.Pages.ShowKanban";
+            _typeNameTable[11] = "ProjectManager.Pages.ShowProject";
 
-            _typeTable = new global::System.Type[11];
+            _typeTable = new global::System.Type[12];
             _typeTable[0] = typeof(global::Microsoft.UI.Xaml.Controls.XamlControlsResources);
             _typeTable[1] = typeof(global::Microsoft.UI.Xaml.ResourceDictionary);
             _typeTable[2] = typeof(global::System.Object);
@@ -248,7 +249,8 @@ namespace ProjectManager.ProjectManager_XamlTypeInfo
             _typeTable[7] = typeof(global::Microsoft.UI.Xaml.Controls.Page);
             _typeTable[8] = typeof(global::Microsoft.UI.Xaml.Controls.UserControl);
             _typeTable[9] = typeof(global::ProjectManager.Pages.MainPage);
-            _typeTable[10] = typeof(global::ProjectManager.Pages.ShowProject);
+            _typeTable[10] = typeof(global::ProjectManager.Pages.ShowKanban);
+            _typeTable[11] = typeof(global::ProjectManager.Pages.ShowProject);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -287,7 +289,8 @@ namespace ProjectManager.ProjectManager_XamlTypeInfo
         private object Activate_4_MainWindow() { return new global::ProjectManager.MainWindow(); }
         private object Activate_6_AddProject() { return new global::ProjectManager.Pages.AddProject(); }
         private object Activate_9_MainPage() { return new global::ProjectManager.Pages.MainPage(); }
-        private object Activate_10_ShowProject() { return new global::ProjectManager.Pages.ShowProject(); }
+        private object Activate_10_ShowKanban() { return new global::ProjectManager.Pages.ShowKanban(); }
+        private object Activate_11_ShowProject() { return new global::ProjectManager.Pages.ShowProject(); }
         private void MapAdd_0_XamlControlsResources(object instance, object key, object item)
         {
             var collection = (global::System.Collections.Generic.IDictionary<global::System.Object, global::System.Object>)instance;
@@ -359,9 +362,16 @@ namespace ProjectManager.ProjectManager_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 10:   //  ProjectManager.Pages.ShowProject
+            case 10:   //  ProjectManager.Pages.ShowKanban
                 userType = new global::ProjectManager.ProjectManager_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_10_ShowProject;
+                userType.Activator = Activate_10_ShowKanban;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 11:   //  ProjectManager.Pages.ShowProject
+                userType = new global::ProjectManager.ProjectManager_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_11_ShowProject;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;

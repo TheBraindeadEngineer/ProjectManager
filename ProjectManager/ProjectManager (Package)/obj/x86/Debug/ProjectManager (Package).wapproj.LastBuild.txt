@@ -2,6 +2,7 @@ E:\projects\ProjectManager\ProjectManager\ProjectManager\bin\x86\Debug\net5.0-wi
 E:\projects\ProjectManager\ProjectManager\ProjectManager\bin\x86\Debug\net5.0-windows10.0.19041.0\MainWindow.xbf
 E:\projects\ProjectManager\ProjectManager\ProjectManager\bin\x86\Debug\net5.0-windows10.0.19041.0\Pages\AddProject.xbf
 E:\projects\ProjectManager\ProjectManager\ProjectManager\bin\x86\Debug\net5.0-windows10.0.19041.0\Pages\MainPage.xbf
+E:\projects\ProjectManager\ProjectManager\ProjectManager\bin\x86\Debug\net5.0-windows10.0.19041.0\Pages\ShowKanban.xbf
 E:\projects\ProjectManager\ProjectManager\ProjectManager\bin\x86\Debug\net5.0-windows10.0.19041.0\Pages\ShowProject.xbf
 C:\Program Files (x86)\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.22000.0\Redist\Debug\x86\ucrtbased.dll
 E:\projects\ProjectManager\ProjectManager\ProjectManager (Package)\Images\SplashScreen.scale-200.png
@@ -22,6 +23,7 @@ E:\projects\ProjectManager\ProjectManager\ProjectManager\obj\x86\Debug\net5.0-wi
 E:\projects\ProjectManager\ProjectManager\ProjectManager\obj\x86\Debug\net5.0-windows10.0.19041.0\MainWindow.xbf
 E:\projects\ProjectManager\ProjectManager\ProjectManager\obj\x86\Debug\net5.0-windows10.0.19041.0\Pages\AddProject.xbf
 E:\projects\ProjectManager\ProjectManager\ProjectManager\obj\x86\Debug\net5.0-windows10.0.19041.0\Pages\MainPage.xbf
+E:\projects\ProjectManager\ProjectManager\ProjectManager\obj\x86\Debug\net5.0-windows10.0.19041.0\Pages\ShowKanban.xbf
 E:\projects\ProjectManager\ProjectManager\ProjectManager\obj\x86\Debug\net5.0-windows10.0.19041.0\Pages\ShowProject.xbf
 E:\projects\ProjectManager\ProjectManager\ProjectManager\obj\x86\Debug\net5.0-windows10.0.19041.0\apphost.exe
 C:\Users\Elvin\.nuget\packages\microsoft.projectreunion.foundation\0.8.6\lib\net5.0-windows\Microsoft.ApplicationModel.Resources.Projection.pdb

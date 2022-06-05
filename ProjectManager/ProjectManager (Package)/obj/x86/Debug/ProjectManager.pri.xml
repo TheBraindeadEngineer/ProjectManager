@@ -24,6 +24,11 @@
 						<Value>Pages\MainPage.xbf</Value>
 					</Candidate>
 				</NamedResource>
+				<NamedResource name="ShowKanban.xbf" uri="ms-resource://ProjectManager/Files/Pages/ShowKanban.xbf">
+					<Candidate type="Path">
+						<Value>Pages\ShowKanban.xbf</Value>
+					</Candidate>
+				</NamedResource>
 				<NamedResource name="ShowProject.xbf" uri="ms-resource://ProjectManager/Files/Pages/ShowProject.xbf">
 					<Candidate type="Path">
 						<Value>Pages\ShowProject.xbf</Value>

@@ -37,6 +37,9 @@
     <AppxPackagedFile Include="E:\projects\ProjectManager\ProjectManager\ProjectManager\bin\x86\Debug\net5.0-windows10.0.19041.0\Pages\MainPage.xbf">
       <PackagePath>Pages\MainPage.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\projects\ProjectManager\ProjectManager\ProjectManager\bin\x86\Debug\net5.0-windows10.0.19041.0\Pages\ShowKanban.xbf">
+      <PackagePath>Pages\ShowKanban.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\projects\ProjectManager\ProjectManager\ProjectManager\bin\x86\Debug\net5.0-windows10.0.19041.0\Pages\ShowProject.xbf">
       <PackagePath>Pages\ShowProject.xbf</PackagePath>
     </AppxPackagedFile>
@@ -102,6 +105,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\projects\ProjectManager\ProjectManager\ProjectManager\obj\x86\Debug\net5.0-windows10.0.19041.0\Pages\MainPage.xbf">
       <PackagePath>ProjectManager\Pages\MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\projects\ProjectManager\ProjectManager\ProjectManager\obj\x86\Debug\net5.0-windows10.0.19041.0\Pages\ShowKanban.xbf">
+      <PackagePath>ProjectManager\Pages\ShowKanban.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\projects\ProjectManager\ProjectManager\ProjectManager\obj\x86\Debug\net5.0-windows10.0.19041.0\Pages\ShowProject.xbf">
       <PackagePath>ProjectManager\Pages\ShowProject.xbf</PackagePath>

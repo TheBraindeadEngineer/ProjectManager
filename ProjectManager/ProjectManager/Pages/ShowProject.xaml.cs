@@ -30,6 +30,16 @@ namespace ProjectManager.Pages
             this.InitializeComponent();
         }
 
+        private void OpenKanban_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(ShowKanban), showProject.Kanban);
+        }
+
+        private void OpenFileTree_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
         bool unsaved = false;
 
         Project showProject;

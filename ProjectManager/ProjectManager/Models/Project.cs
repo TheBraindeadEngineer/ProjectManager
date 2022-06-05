@@ -15,6 +15,7 @@ namespace ProjectManager.Models
         public string Description { get; set; }
         public DateTime Created { get; set; }   
         public DateTime LastUpdated { get; set; }
+        public Kanban Kanban { get; set; }
 
         public static Project ReadProject(string path)
         {

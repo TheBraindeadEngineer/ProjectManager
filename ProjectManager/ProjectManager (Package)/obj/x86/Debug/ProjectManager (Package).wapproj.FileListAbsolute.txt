@@ -42,3 +42,5 @@ E:\projects\ProjectManager\ProjectManager\ProjectManager (Package)\bin\x86\Debug
 E:\projects\ProjectManager\ProjectManager\ProjectManager (Package)\bin\x86\Debug\Pages\ShowProject.xbf
 E:\projects\ProjectManager\ProjectManager\ProjectManager (Package)\bin\x86\Debug\ProjectManager\Pages\AddProject.xbf
 E:\projects\ProjectManager\ProjectManager\ProjectManager (Package)\bin\x86\Debug\ProjectManager\Pages\ShowProject.xbf
+E:\projects\ProjectManager\ProjectManager\ProjectManager (Package)\bin\x86\Debug\Pages\ShowKanban.xbf
+E:\projects\ProjectManager\ProjectManager\ProjectManager (Package)\bin\x86\Debug\ProjectManager\Pages\ShowKanban.xbf

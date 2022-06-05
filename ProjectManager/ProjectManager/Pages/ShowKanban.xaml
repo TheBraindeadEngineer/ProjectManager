@@ -1,0 +1,172 @@
+﻿<Page
+    x:Class="ProjectManager.Pages.ShowKanban"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ProjectManager.Pages"
+    xmlns:models="using:ProjectManager.Models"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="auto"/>
+        </Grid.ColumnDefinitions>
+
+        <TextBlock Margin="10" Text="To Do" Grid.Row="0" Grid.Column="0"/>
+        <TextBlock Margin="10" Text="In Progress" Grid.Row="0" Grid.Column="1"/>
+        <TextBlock Margin="10" Text="Done" Grid.Row="0" Grid.Column="2"/>
+
+        <ListView Margin="10"
+                  x:Name="ToDoListView"
+                  Grid.Row="1" 
+                  Grid.Column="0" 
+                  SelectionMode="Single"
+                  ShowsScrollingPlaceholders="True"
+                  BorderThickness="1"
+                  BorderBrush="{ThemeResource SystemControlForegroundBaseMediumLowBrush}">
+            <ListView.ItemTemplate>
+                <DataTemplate x:DataType="models:TodoTask">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                        </Grid.RowDefinitions>
+
+                        <Grid Grid.Row="0">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="auto"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <TextBlock Grid.Column="0" Text="Name: " Margin="2"/>
+                            <TextBlock Grid.Column="1" Text="{x:Bind Name}" x:Phase="1" Margin="2"/>
+                        </Grid>
+
+                        <Grid Grid.Row="1">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="auto"/>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="auto"/>
+                                <ColumnDefinition Width="auto"/>
+                            </Grid.ColumnDefinitions>
+
+                            <TextBlock Grid.Column="0" Text="Deadline: " Margin="2"/>
+                            <TextBlock Grid.Column="1" Text="{x:Bind Deadline}" x:Phase="1" Margin="2"/>
+                            <TextBlock Grid.Column="2" Text="Priority: " Margin="2"/>
+                            <TextBlock Grid.Column="3" Text="{x:Bind TaskPriority}" x:Phase="1" Margin="2"/>
+
+                        </Grid>
+                    </Grid>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+        <ListView Margin="10"
+                  x:Name="InProgressListView"
+                  Grid.Row="1" 
+                  Grid.Column="1" 
+                  SelectionMode="Single"
+                  ShowsScrollingPlaceholders="True"
+                  BorderThickness="1"
+                  BorderBrush="{ThemeResource SystemControlForegroundBaseMediumLowBrush}">
+            <ListView.ItemTemplate>
+                <DataTemplate x:DataType="models:TodoTask">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                        </Grid.RowDefinitions>
+
+                        <Grid Grid.Row="0">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="auto"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <TextBlock Grid.Column="0" Text="Name: " Margin="2"/>
+                            <TextBlock Grid.Column="1" Text="{x:Bind Name}" x:Phase="1" Margin="2"/>
+                        </Grid>
+
+                        <Grid Grid.Row="1">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="auto"/>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="auto"/>
+                                <ColumnDefinition Width="auto"/>
+                            </Grid.ColumnDefinitions>
+
+                            <TextBlock Grid.Column="0" Text="Deadline: " Margin="2"/>
+                            <TextBlock Grid.Column="1" Text="{x:Bind Deadline}" x:Phase="1" Margin="2"/>
+                            <TextBlock Grid.Column="2" Text="Priority: " Margin="2"/>
+                            <TextBlock Grid.Column="3" Text="{x:Bind TaskPriority}" x:Phase="1" Margin="2"/>
+
+                        </Grid>
+                    </Grid>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+        <ListView Margin="10" 
+                  x:Name="DoneListView"
+                  Grid.Row="1" 
+                  Grid.Column="2" 
+                  SelectionMode="Single"
+                  ShowsScrollingPlaceholders="True"
+                  BorderThickness="1"
+                  BorderBrush="{ThemeResource SystemControlForegroundBaseMediumLowBrush}">
+            <ListView.ItemTemplate>
+                <DataTemplate x:DataType="models:TodoTask">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                        </Grid.RowDefinitions>
+
+                        <Grid Grid.Row="0">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="auto"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <TextBlock Grid.Column="0" Text="Name: " Margin="2"/>
+                            <TextBlock Grid.Column="1" Text="{x:Bind Name}" x:Phase="1" Margin="2"/>
+                        </Grid>
+
+                        <Grid Grid.Row="1">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="auto"/>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="auto"/>
+                                <ColumnDefinition Width="auto"/>
+                            </Grid.ColumnDefinitions>
+
+                            <TextBlock Grid.Column="0" Text="Deadline: " Margin="2"/>
+                            <TextBlock Grid.Column="1" Text="{x:Bind Deadline}" x:Phase="1" Margin="2"/>
+                            <TextBlock Grid.Column="2" Text="Priority: " Margin="2"/>
+                            <TextBlock Grid.Column="3" Text="{x:Bind TaskPriority}" x:Phase="1" Margin="2"/>
+
+                        </Grid>
+                    </Grid>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+        <StackPanel Width="300" Grid.Row="1" Grid.Column="4" Margin="10">
+            <Button Margin="8" Content="Move Left"/>
+            <Button Margin="8" Content="Move Right"/>
+            <Button Margin="8" Content="Open"/>
+            <Button Margin="8" Content="Delete"/>
+            <Button Margin="8" Content="Close" Click="Close_Click"/>
+        </StackPanel>
+    </Grid>
+</Page>
