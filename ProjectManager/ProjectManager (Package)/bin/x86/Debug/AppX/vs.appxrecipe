@@ -30,29 +30,29 @@
     <AppXManifest Include="E:\projects\ProjectManager\ProjectManager\ProjectManager %28Package%29\bin\x86\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-06-04T20:56:57.581</Modified>
+      <Modified>2022-06-05T17:39:26.854</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="E:\projects\ProjectManager\ProjectManager\ProjectManager\bin\x86\Debug\net5.0-windows10.0.19041.0\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2022-06-04T20:56:56.928</Modified>
+      <Modified>2022-06-05T17:37:53.183</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\projects\ProjectManager\ProjectManager\ProjectManager\bin\x86\Debug\net5.0-windows10.0.19041.0\MainWindow.xbf">
       <PackagePath>MainWindow.xbf</PackagePath>
-      <Modified>2022-06-04T20:56:56.930</Modified>
+      <Modified>2022-06-05T17:37:53.183</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\projects\ProjectManager\ProjectManager\ProjectManager\bin\x86\Debug\net5.0-windows10.0.19041.0\Pages\AddProject.xbf">
       <PackagePath>Pages\AddProject.xbf</PackagePath>
-      <Modified>2022-06-04T20:56:56.930</Modified>
+      <Modified>2022-06-05T17:37:53.183</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\projects\ProjectManager\ProjectManager\ProjectManager\bin\x86\Debug\net5.0-windows10.0.19041.0\Pages\MainPage.xbf">
       <PackagePath>Pages\MainPage.xbf</PackagePath>
-      <Modified>2022-06-04T20:56:56.930</Modified>
+      <Modified>2022-06-05T17:37:53.184</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\projects\ProjectManager\ProjectManager\ProjectManager\bin\x86\Debug\net5.0-windows10.0.19041.0\Pages\ShowProject.xbf">
       <PackagePath>Pages\ShowProject.xbf</PackagePath>
-      <Modified>2022-06-04T20:56:56.930</Modified>
+      <Modified>2022-06-05T17:37:53.184</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.22000.0\Redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -94,7 +94,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\projects\ProjectManager\ProjectManager\ProjectManager %28Package%29\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-06-04T20:14:39.266</Modified>
+      <Modified>2022-06-05T15:41:24.942</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Elvin\.nuget\packages\microsoft.projectreunion.foundation\0.8.6\lib\net5.0-windows\Microsoft.ApplicationModel.Resources.Projection.dll">
       <PackagePath>ProjectManager\Microsoft.ApplicationModel.Resources.Projection.dll</PackagePath>
@@ -114,7 +114,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\projects\ProjectManager\ProjectManager\ProjectManager\bin\x86\Debug\net5.0-windows10.0.19041.0\ProjectManager.deps.json">
       <PackagePath>ProjectManager\ProjectManager.deps.json</PackagePath>
-      <Modified>2022-06-04T20:14:38.130</Modified>
+      <Modified>2022-06-05T15:41:23.735</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\projects\ProjectManager\ProjectManager\ProjectManager\bin\x86\Debug\net5.0-windows10.0.19041.0\ProjectManager.runtimeconfig.dev.json">
       <PackagePath>ProjectManager\ProjectManager.runtimeconfig.dev.json</PackagePath>
@@ -122,27 +122,27 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\projects\ProjectManager\ProjectManager\ProjectManager\obj\x86\Debug\net5.0-windows10.0.19041.0\App.xbf">
       <PackagePath>ProjectManager\App.xbf</PackagePath>
-      <Modified>2022-06-04T20:56:56.928</Modified>
+      <Modified>2022-06-05T17:37:53.183</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\projects\ProjectManager\ProjectManager\ProjectManager\obj\x86\Debug\net5.0-windows10.0.19041.0\MainWindow.xbf">
       <PackagePath>ProjectManager\MainWindow.xbf</PackagePath>
-      <Modified>2022-06-04T20:56:56.930</Modified>
+      <Modified>2022-06-05T17:37:53.183</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\projects\ProjectManager\ProjectManager\ProjectManager\obj\x86\Debug\net5.0-windows10.0.19041.0\Pages\AddProject.xbf">
       <PackagePath>ProjectManager\Pages\AddProject.xbf</PackagePath>
-      <Modified>2022-06-04T20:56:56.930</Modified>
+      <Modified>2022-06-05T17:37:53.183</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\projects\ProjectManager\ProjectManager\ProjectManager\obj\x86\Debug\net5.0-windows10.0.19041.0\Pages\MainPage.xbf">
       <PackagePath>ProjectManager\Pages\MainPage.xbf</PackagePath>
-      <Modified>2022-06-04T20:56:56.930</Modified>
+      <Modified>2022-06-05T17:37:53.184</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\projects\ProjectManager\ProjectManager\ProjectManager\obj\x86\Debug\net5.0-windows10.0.19041.0\Pages\ShowProject.xbf">
       <PackagePath>ProjectManager\Pages\ShowProject.xbf</PackagePath>
-      <Modified>2022-06-04T20:56:56.930</Modified>
+      <Modified>2022-06-05T17:37:53.184</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\projects\ProjectManager\ProjectManager\ProjectManager\obj\x86\Debug\net5.0-windows10.0.19041.0\apphost.exe">
       <PackagePath>ProjectManager\ProjectManager.exe</PackagePath>
-      <Modified>2022-06-04T20:56:57.022</Modified>
+      <Modified>2022-06-05T17:39:26.256</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\projects\ProjectManager\ProjectManager\ProjectManager\bin\x86\Debug\net5.0-windows10.0.19041.0\ProjectManager.runtimeconfig.json">
       <PackagePath>ProjectManager\ProjectManager.runtimeconfig.json</PackagePath>
@@ -150,7 +150,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\projects\ProjectManager\ProjectManager\ProjectManager\bin\x86\Debug\net5.0-windows10.0.19041.0\ProjectManager.dll">
       <PackagePath>ProjectManager\ProjectManager.dll</PackagePath>
-      <Modified>2022-06-04T20:56:57.015</Modified>
+      <Modified>2022-06-05T17:39:26.245</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

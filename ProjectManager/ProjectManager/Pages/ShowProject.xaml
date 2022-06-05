@@ -9,6 +9,32 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
 
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <TextBlock HorizontalTextAlignment="Center" VerticalAlignment="Center" Margin="10" Text="Name:" Grid.Row="0" Grid.Column="0"/>
+        <TextBox x:Name="NameTextBox" Margin="10" Grid.Row="0" Grid.Column="1" TextChanged="OnTextChanged"/>
+
+        <TextBlock HorizontalTextAlignment="Center" VerticalAlignment="Center" Margin="10" Text="Description:" Grid.Row="1" Grid.Column="0"/>
+        <TextBox x:Name="DescriptionTextBox" Margin="10" Grid.Row="1" Grid.Column="1" TextChanged="OnTextChanged"/>
+
+        <TextBlock HorizontalTextAlignment="Center" VerticalAlignment="Center" Margin="10" Text="Created on:" Grid.Row="2" Grid.Column="0"/>
+        <DatePicker x:Name="CreatedOnPicker" Margin="10" Grid.Row="2" Grid.Column="1" DateChanged="OnDateChanged"/>
+
+        <StackPanel Orientation="Horizontal" Grid.Row="4" Grid.Column="1" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="10">
+            <Button x:Name="EditButton" Margin="10" Content="Edit" Click="EditButton_Click"/>
+            <Button x:Name="SaveButton" Margin="10" Content="Save" Click="SaveButton_Click"/>
+            <Button x:Name="CancelButton" Margin="10" Content="Cancel" Click="CancelButton_Click"/>
+        </StackPanel>
     </Grid>
 </Page>

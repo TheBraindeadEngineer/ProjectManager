@@ -30,11 +30,27 @@ namespace ProjectManager.Pages
 
         List<Project> allProjects;
 
+        FileSystemWatcher fileSystemWatcher;
         public MainPage()
         {
             this.InitializeComponent();
 
+            fileSystemWatcher = new FileSystemWatcher();
+            fileSystemWatcher.Path = Project.ProjectFolderPath;
+            
+            fileSystemWatcher.Created += FileSystemWatcher_Update;
+            fileSystemWatcher.Changed += FileSystemWatcher_Update;
+            fileSystemWatcher.Renamed += FileSystemWatcher_Update;
+            fileSystemWatcher.Deleted += FileSystemWatcher_Update;
+            
+            fileSystemWatcher.EnableRaisingEvents = true;
+
             Reload_Click(this, null);
+        }
+
+        private void FileSystemWatcher_Update(object sender, FileSystemEventArgs e)
+        {
+            DispatcherQueue.TryEnqueue(() => Reload_Click(this, null));
         }
 
         private void OnFilterChanged(object sender, TextChangedEventArgs e)
@@ -73,12 +89,6 @@ namespace ProjectManager.Pages
             }
         }
 
-        private void DeleteProject(Project project)
-        {
-            allProjects.Remove(project);
-            projectsFiltered.Remove(project);
-        }
-
         private async void RemoveProject_Click(object sender, RoutedEventArgs e)
         {
             if (ProjectListView.SelectedIndex == -1)
@@ -95,12 +105,12 @@ namespace ProjectManager.Pages
             var result = await dialog.ShowAsync();
 
             if (result == ContentDialogResult.Primary)
-                DeleteProject(GetSelectedProject());
+                Project.DeleteProject(GetSelectedProject());
         }
 
         private void AddProject_Click(object sender, RoutedEventArgs e)
         {
-
+            this.Frame.Navigate(typeof(AddProject));
         }
 
         private void OpenProject_Click(object sender, RoutedEventArgs e)
@@ -113,7 +123,7 @@ namespace ProjectManager.Pages
 
         private void Reload_Click(object sender, RoutedEventArgs e)
         {
-            allProjects = GetProjects();
+            allProjects = Project.GetProjects();
 
             if (allProjects.Count != 0)
             {
@@ -121,25 +131,6 @@ namespace ProjectManager.Pages
 
                 ProjectListView.ItemsSource = projectsFiltered;
             }
-        }
-
-        private List<Project> GetProjects()
-        {
-            List<Project> projects = new List<Project>();
-
-            string path = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + @"\ProjectManager\projects";
-
-            if (!Directory.Exists(path))
-                return projects;
-
-            string[] files = Directory.GetFiles(path);
-
-            foreach(var file in files)
-            {
-                projects.Add(Project.ReadProject(file));
-            }
-
-            return projects;
         }
 
         private Project GetSelectedProject()
