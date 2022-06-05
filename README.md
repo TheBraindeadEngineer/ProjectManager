@@ -6,14 +6,13 @@ Then I had the genius idea to make a project to manage my non-existent projects.
 
 ## Features to be implemented
 
-- Add/Edit Project
 - Kanban
 - File Explorer
 - File Editor
 
 ## Features implemented
 
-- Load Projects
+- Add/Open/Edit/Delete Projects
 
 ***
 
