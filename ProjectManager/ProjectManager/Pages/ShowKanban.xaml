@@ -33,7 +33,8 @@
                   SelectionMode="Single"
                   ShowsScrollingPlaceholders="True"
                   BorderThickness="1"
-                  BorderBrush="{ThemeResource SystemControlForegroundBaseMediumLowBrush}">
+                  BorderBrush="{ThemeResource SystemControlForegroundBaseMediumLowBrush}"
+                  SelectionChanged="ToDoListView_SelectionChanged">
             <ListView.ItemTemplate>
                 <DataTemplate x:DataType="models:TodoTask">
                     <Grid>
@@ -78,7 +79,8 @@
                   SelectionMode="Single"
                   ShowsScrollingPlaceholders="True"
                   BorderThickness="1"
-                  BorderBrush="{ThemeResource SystemControlForegroundBaseMediumLowBrush}">
+                  BorderBrush="{ThemeResource SystemControlForegroundBaseMediumLowBrush}"
+                  SelectionChanged="InProgressListView_SelectionChanged">
             <ListView.ItemTemplate>
                 <DataTemplate x:DataType="models:TodoTask">
                     <Grid>
@@ -123,7 +125,8 @@
                   SelectionMode="Single"
                   ShowsScrollingPlaceholders="True"
                   BorderThickness="1"
-                  BorderBrush="{ThemeResource SystemControlForegroundBaseMediumLowBrush}">
+                  BorderBrush="{ThemeResource SystemControlForegroundBaseMediumLowBrush}"
+                  SelectionChanged="DoneListView_SelectionChanged">
             <ListView.ItemTemplate>
                 <DataTemplate x:DataType="models:TodoTask">
                     <Grid>
@@ -162,10 +165,11 @@
         </ListView>
 
         <StackPanel Width="300" Grid.Row="1" Grid.Column="4" Margin="10">
-            <Button Margin="8" Content="Move Left"/>
-            <Button Margin="8" Content="Move Right"/>
-            <Button Margin="8" Content="Open"/>
-            <Button Margin="8" Content="Delete"/>
+            <Button Margin="8" Content="New" Click="NewButton_Click"/>
+            <Button Margin="8" Content="Move Left" Click="MoveLeftButton_Click"/>
+            <Button Margin="8" Content="Move Right" Click="MoveRightButton_Click"/>
+            <Button Margin="8" Content="Open" Click="OpenButton_Click"/>
+            <Button Margin="8" Content="Delete" Click="DeleteButton_Click"/>
             <Button Margin="8" Content="Close" Click="Close_Click"/>
         </StackPanel>
     </Grid>

@@ -8,6 +8,18 @@
     <None Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </None>
+    <Page Update="Pages\OpenTask.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\NewTodoTask.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\OpenFile.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\ShowFileTree.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Pages\ShowKanban.xaml">
       <SubType>Designer</SubType>
     </Page>

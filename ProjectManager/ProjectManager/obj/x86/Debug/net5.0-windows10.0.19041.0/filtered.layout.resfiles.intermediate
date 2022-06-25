@@ -2,5 +2,9 @@ App.xbf
 MainWindow.xbf
 Pages\AddProject.xbf
 Pages\MainPage.xbf
+Pages\NewKanban.xbf
+Pages\OpenFile.xbf
+Pages\OpenTask.xbf
+Pages\ShowFileTree.xbf
 Pages\ShowKanban.xbf
 Pages\ShowProject.xbf

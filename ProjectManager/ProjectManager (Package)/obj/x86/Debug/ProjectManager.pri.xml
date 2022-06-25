@@ -24,6 +24,26 @@
 						<Value>Pages\MainPage.xbf</Value>
 					</Candidate>
 				</NamedResource>
+				<NamedResource name="NewKanban.xbf" uri="ms-resource://ProjectManager/Files/Pages/NewKanban.xbf">
+					<Candidate type="Path">
+						<Value>Pages\NewKanban.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="OpenFile.xbf" uri="ms-resource://ProjectManager/Files/Pages/OpenFile.xbf">
+					<Candidate type="Path">
+						<Value>Pages\OpenFile.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="OpenTask.xbf" uri="ms-resource://ProjectManager/Files/Pages/OpenTask.xbf">
+					<Candidate type="Path">
+						<Value>Pages\OpenTask.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ShowFileTree.xbf" uri="ms-resource://ProjectManager/Files/Pages/ShowFileTree.xbf">
+					<Candidate type="Path">
+						<Value>Pages\ShowFileTree.xbf</Value>
+					</Candidate>
+				</NamedResource>
 				<NamedResource name="ShowKanban.xbf" uri="ms-resource://ProjectManager/Files/Pages/ShowKanban.xbf">
 					<Candidate type="Path">
 						<Value>Pages\ShowKanban.xbf</Value>

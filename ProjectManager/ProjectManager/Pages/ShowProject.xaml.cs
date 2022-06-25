@@ -14,6 +14,7 @@ using Windows.Foundation;
 using Windows.Foundation.Collections;
 
 using ProjectManager.Models;
+using Microsoft.UI.Xaml.Media.Animation;
 
 // To learn more about WinUI, the WinUI project structure,
 // and more about our project templates, see: http://aka.ms/winui-project-info.
@@ -32,12 +33,12 @@ namespace ProjectManager.Pages
 
         private void OpenKanban_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(ShowKanban), showProject.Kanban);
+            this.Frame.Navigate(typeof(ShowKanban), showProject.Kanban, new SlideNavigationTransitionInfo() { Effect = SlideNavigationTransitionEffect.FromRight});
         }
 
         private void OpenFileTree_Click(object sender, RoutedEventArgs e)
         {
-
+            this.Frame.Navigate(typeof(ShowFileTree), showProject, new SlideNavigationTransitionInfo() { Effect = SlideNavigationTransitionEffect.FromRight });
         }
 
         bool unsaved = false;

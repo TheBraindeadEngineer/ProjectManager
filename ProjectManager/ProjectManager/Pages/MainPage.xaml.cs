@@ -15,6 +15,7 @@ using Windows.Foundation;
 using Windows.Foundation.Collections;
 
 using ProjectManager.Models;
+using Microsoft.UI.Xaml.Media.Animation;
 
 // To learn more about WinUI, the WinUI project structure,
 // and more about our project templates, see: http://aka.ms/winui-project-info.
@@ -110,7 +111,7 @@ namespace ProjectManager.Pages
 
         private void AddProject_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(AddProject));
+            this.Frame.Navigate(typeof(AddProject), null, new DrillInNavigationTransitionInfo());
         }
 
         private void OpenProject_Click(object sender, RoutedEventArgs e)
@@ -118,7 +119,7 @@ namespace ProjectManager.Pages
             if (ProjectListView.SelectedIndex == -1)
                 return;
 
-            this.Frame.Navigate(typeof(ShowProject), GetSelectedProject());
+            this.Frame.Navigate(typeof(ShowProject), GetSelectedProject(), new DrillInNavigationTransitionInfo());
         }
 
         private void Reload_Click(object sender, RoutedEventArgs e)
